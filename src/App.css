@@ -1,0 +1,24 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column ::first-letter {
+  font-size: 200%;
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.notification {
+  border-radius: 10px;
+  background: white;
+  box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.24);
+  text-align: center;
+}
+
+.columns {
+  background: rgb(233, 233, 233);
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.24);
+}
